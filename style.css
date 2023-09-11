@@ -1,0 +1,140 @@
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+    background: rgb(195, 131, 255);
+  color: white;
+}
+.obligashen:hover{
+  transform: rotate(-45deg);
+  border: 5px solid white;
+}
+.obligashens:hover{
+  transform: rotate(-45deg);
+  border:5px solid black;
+}
+.obligashen{
+  transition: all 2s ease;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  width: 250px;
+  height: 250px;
+    background: top;
+  border:5px solid black;
+}
+.obligashens{
+  transition: all 2s ease;
+  transform: rotate(45deg);
+  width: 250px;
+  height: 250px;
+  background: transparent;
+  border: 5px solid white;
+}
+#files{
+  background: transparent;
+  color: white;
+  font-weight: 1000;
+  height: 25px;
+  border-radius: 8px;
+}
+button{
+  display: block;
+  width: 69px;
+  height: 25px;
+  background: transparent;
+  border: transparent;
+  border-radius: 8px;
+  color: white;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+img{
+  width: 500px;
+  height: 300px;
+  margin-left: 5px;
+
+}
+
+#pic{
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  clip-path: circle(100% at 10 50);
+  transition: all 1s ease;
+}
+#pic:hover{
+  clip-path: circle(100%);
+}
+.bu{
+  background: blueviolet;
+  width: 159px;
+  height: auto;
+  border: 5px solid rgb(181, 103, 255);
+  border-radius: 8px;
+  box-shadow: 10px 10px  rgb(160, 160, 255);
+}
+.bu button{
+  margin-left: 43px;
+}
+
+hr{
+  border: 2px solid rgb(253, 253, 253);
+  width: 20px;
+  border-radius: 8px;
+}
+
+button:hover{
+  background: rgb(173, 86, 255),transparent;
+  font-weight: 1000;
+}
+.said{
+  background: blueviolet;
+  width: 150px;
+  height: auto;
+  border: 5px solid rgb(181, 103, 255);
+  border-radius: 8px;
+  box-shadow: -10px -10px  rgb(160, 160, 255);
+  margin-left: 1010px;
+  margin-top: -527px;
+}
+.said button{
+  margin-left: 40px;
+
+}
+.how:hover{
+  box-shadow: -3px 0px black inset, 3px 0px  black inset;
+}
+.how{
+  background: rgb(168, 80, 250);
+  width: 790px;
+  height: auto;
+  box-shadow: 0px -3px black, 0px 3px  black;
+  border: 3px solid rgb(195, 131, 255);
+  border-radius: 8px;
+  margin-left: 170px;
+  margin-top: -620px;
+  text-align: center;
+}
+
+
+/* Style tab links */
+
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+ul{
+  text-align: left;
+}
+li {
+  text-align: left;
+}
